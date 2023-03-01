@@ -1,4 +1,4 @@
-# hb-template-pc
+# hb-template
 
 ## Project setup
 ```

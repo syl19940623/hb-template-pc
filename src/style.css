@@ -1,0 +1,75 @@
+/* 设置css变量 */
+:root {
+  --primary: #409EFF;
+  --success: #67C23A;
+  --warning: #E6A23C;
+  --danger: #F56C6C;
+  --info: #909399;
+  --color: #333333;
+  --bg: #EDEEF0;
+  --border-color: #DCDFE6;
+}
+
+/* css初始化 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+	display: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+body {
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+	color: var(--color);
+	background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+.clear:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.raelc:before {
+	content: '';
+	display: table;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ellipsisTwo {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
